@@ -588,6 +588,35 @@ $ dolt
 </div>
 </div>
 <Socials />
+
+---
+
+# Diffing with Dolt
+<Speaker name="Dolt team"/>
+
+<div class="flex">
+
+  <div class="flex-grow">
+    <div><Profile name="Max" role="Integrations Engineer" github="max-hoffman" class="mb-3"/></div>
+    <div><Profile name="Oscar" role="Product" github="oscarbatori"/></div>
+  </div>
+  <div class="flex-auto"> 
+
+  <ul class="text-0.8em max-w-80">
+  <li>Increasingly complex tools</li>
+  <ul class="text-0.8em max-w-80">
+    <li>Drift monitoring</li>
+    <li>Data validation/exectation suites</li>
+    <li>Embedding visualizations</li>
+  </ul>
+  <li>Diffing is simple, crude, and effective</li>
+  <li>Source code diff -> view state changes</li>
+  <li>Database diff -> view state changes</li>
+  </ul>
+
+</div>
+</div>
+<Socials />
 ---
 
 # Config optimisation
