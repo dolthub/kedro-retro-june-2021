@@ -540,7 +540,7 @@ Our first iteration of our 'modular pipelines' feature (v0.16.2).
 
 ---
 
-# Diffing with Dolt
+# Diffing with Dolt (1/2)
 <Speaker name="Dolt team"/>
 
 <div class="flex">
@@ -556,7 +556,7 @@ Our first iteration of our 'modular pipelines' feature (v0.16.2).
 
   <ul class="text-0.8em max-w-80">
   <li>Dolt is database you can use like <code>git</code> </li>
-  <li>More robust than our <code>*VersionedDataSet</code> </li>
+  <li>More robust than our <code>*VersionedDataSet</code>, but made simple via integration</li>
   <li>Supports crazy stuff like data <code>diff</code> 🤯</li>
   <li>Python API or CLI interface</li>
   <li>Kedro <KedroIcon class="h-8 inline"/> integration is coming!</li>
@@ -588,11 +588,44 @@ $ dolt
 </div>
 </div>
 <Socials />
+
+---
+
+# Diffing with Dolt (2/2)
+<Speaker name="Dolt team"/>
+
+<div class="flex">
+
+  <div class="flex-grow">
+    <div><Profile name="Max" role="Integrations Engineer" github="max-hoffman" class="mb-3"/></div>
+    <div><Profile name="Oscar" role="Product" github="oscarbatori"/></div>
+  </div>
+  <div class="flex-auto"> 
+
+  <ul class="text-0.8em max-w-80">
+  <li>Dolt</li>
+  <ul class="text-0.8em max-w-80">
+  <li>SQL query interface - (99%) MySQL compliant</li>
+  <li>Git-like features - efficient branch, diff, merge</li>
+  <li>Repo isolation - clone, push, pull</li>
+  </ul>
+  
+  <li>Diffs</li>
+  <ul class="text-0.8em max-w-80">
+  <li>Viz tools are increasingly complex -- drift, validations, embeddings</li>
+  <li>Diffing is simple, crude, and effective</li>
+  <li>Diffs exposed via SQL tables for automating valdation of data changes</li>
+  <li>Source code diff -> view state changes</li>
+  <li>Database diff -> view state changes</li>
+  </ul>
+
+</div>
+</div>
+<Socials />
+
 ---
 
 # Config optimisation
-
-
 
 <div class="flex pb-4">
 <v-click at='4'><img abs src="/help.png" class="rounded-xl abs-tr h-55 mr-25 mt-56"/></v-click>
