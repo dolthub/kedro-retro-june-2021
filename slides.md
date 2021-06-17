@@ -540,7 +540,7 @@ Our first iteration of our 'modular pipelines' feature (v0.16.2).
 
 ---
 
-# Diffing with Dolt
+# Diffing with Dolt (1/2)
 <Speaker name="Dolt team"/>
 
 <div class="flex">
@@ -591,7 +591,7 @@ $ dolt
 
 ---
 
-# Diffing with Dolt
+# Diffing with Dolt (2/2)
 <Speaker name="Dolt team"/>
 
 <div class="flex">
@@ -603,12 +603,16 @@ $ dolt
   <div class="flex-auto"> 
 
   <ul class="text-0.8em max-w-80">
-  <li>Increasingly complex tools</li>
+  <li>Dolt</li>
   <ul class="text-0.8em max-w-80">
-    <li>Drift monitoring</li>
-    <li>Data validation/exectation suites</li>
-    <li>Embedding visualizations</li>
+  <li>SQL interface -  (99%) MySQL compliant</li>
+  <li>Git interface - efficient branch, diff, merge</li>
+  <li>Repo isolation - clone, push, pull</li>
   </ul>
+  
+  <li>Diffs</li>
+  <ul class="text-0.8em max-w-80">
+  <li>Viz tools are increasingly complex -- drift, validaations, embeddings</li>
   <li>Diffing is simple, crude, and effective</li>
   <li>Source code diff -> view state changes</li>
   <li>Database diff -> view state changes</li>
@@ -617,11 +621,10 @@ $ dolt
 </div>
 </div>
 <Socials />
+
 ---
 
 # Config optimisation
-
-
 
 <div class="flex pb-4">
 <v-click at='4'><img abs src="/help.png" class="rounded-xl abs-tr h-55 mr-25 mt-56"/></v-click>
